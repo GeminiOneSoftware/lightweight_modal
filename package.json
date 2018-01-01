@@ -1,0 +1,32 @@
+{
+  "name": "lightweight_modal",
+  "version": "1.0.0",
+  "description": "A lightweight modal plugin with customizable features",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeminiOneSoftware/lightweight_modal.git"
+  },
+  "keywords": [
+    "modal",
+    "responsive",
+    "lightweight",
+    "alert",
+    "message"
+  ],
+  "author": "Randy Layne <randydavidl78@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeminiOneSoftware/lightweight_modal/issues"
+  },
+  "homepage": "https://github.com/GeminiOneSoftware/lightweight_modal#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
+  }
+}

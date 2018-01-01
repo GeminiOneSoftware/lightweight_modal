@@ -18,4 +18,4 @@
   * Javascript
   * HTML
   * CSS/SASS
-  * https://github.com/randyL78
+  * [Randy's GitHub] (https://github.com/randyL78)

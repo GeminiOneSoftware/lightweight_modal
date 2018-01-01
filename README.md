@@ -19,4 +19,11 @@
   * HTML
   * CSS/SASS
   * [Randy's GitHub](https://github.com/randyL78)
+* Brian Jensen
+  * HTML
+  * CSS/SASS
+  * Javascript
+  * Documentation
+  * Product Testing
+  * [Brian's GitHub](https://github.com/brian-jensen)
 

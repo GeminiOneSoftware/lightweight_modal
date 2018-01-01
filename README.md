@@ -18,8 +18,5 @@
   * Javascript
   * HTML
   * CSS/SASS
+  * [Randy's GitHub](https://github.com/randyL78)
 
-[Randy's GitHub] (https://github.com/randyL78)
-
-http://github.com - automatic!
-[GitHub](http://github.com)

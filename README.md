@@ -14,16 +14,15 @@
 ## Credits
 * Randy Layne 
   * Organization creator
-  * Project creator/coordinator
-  * Javascript
-  * HTML
-  * CSS/SASS
   * [Randy's GitHub](https://github.com/randyL78)
 * Brian Jensen
-  * HTML
-  * CSS/SASS
-  * Javascript
-  * Documentation
-  * Product Testing
   * [Brian's GitHub](https://github.com/brian-jensen)
+* Haley Ward
+  * [Haley's Github] (https://github.com/HaleyWardo)
+* Jason Welsh
+  * [Jason's Github] (https://github.com/JasonBWelsh)
+* Caroline Forslund
+  * [Caroline's Github] (https://github.com/CarroForslund)
+* Warren Leyes
+  * [Warren's Github] (https://github.com/WLeyes)
 

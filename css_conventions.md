@@ -48,7 +48,7 @@ The admins will not reject a pull request for not having the styles in exactly t
 ``` SCSS
 .go-lm {
   @include e(button) { // go-lm__button
-    @extends %button;
+    @extend %button;
     margin: .25em;
     background-color: $color-default;
     font-family: $font-family-accent;

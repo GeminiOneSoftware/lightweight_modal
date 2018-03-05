@@ -54,13 +54,13 @@ The admins will not reject a pull request for not having the styles in exactly t
     font-family: $font-family-accent;
     color: #fcd9e9;
     text-align: center
-    box-shadow: 1px 1px 0 5px #333, 0 0 2px 3px #fff        inset;
+    box-shadow: 1px 1px 0 5px #333, 0 0 2px 3px #fff inset;
     transition: background-color 0.3s;
     @include flexy(vertical);
-    @include mq(medium) { // go-lm__button--close
+    @include mq(medium) { 
       flex-direction: row;
     } 
-    @include m(close) {
+    @include m(close) { // go-lm__button--close
       background-color: $color-warning;
     }
   }

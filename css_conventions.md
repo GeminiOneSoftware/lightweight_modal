@@ -7,8 +7,8 @@ The admins will not reject a pull request for not having the styles in exactly t
 ## Name conventions
 
 * Use BEM naming conventions
-* Prefix all class names with go-lm
-  * For example `go-lm__button--close`
+* Prefix all class names with os-lm
+  * For example `os-lm__button--close`
 * For all numbers that star with a decimal, add a zero in front Ex: .3333 would be 0.3333
 
 
@@ -46,7 +46,7 @@ The admins will not reject a pull request for not having the styles in exactly t
 
 ## Examples
 ``` SCSS
-.go-lm {
+.os-lm {
   @include e(button) { // go-lm__button
     @extend %button;
     margin: .25em;

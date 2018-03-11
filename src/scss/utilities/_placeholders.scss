@@ -1,0 +1,158 @@
+/*
+///////////////////////////////////////////////////////////////////////////////////////////////
+// scss/utilities/_placeholders.scss :   placeholders for: links, images, headlines, nav items
+///////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+// Helpers
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Clearfix
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+//For pseudo-elements
+%pseudos {
+  display: block;
+  content: '';
+  position: absolute;
+}
+
+
+// Center elements
+%centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Screen reader Text
+.srt {
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+// headlines
+///////////////////////////////////////////////////////////////////////////////////////////
+%headline--primary {
+  text-align: center;
+  font-size: em(20px);
+  font-family: $font-family--primary;
+  font-weight: $font-weight--ultra-bold;
+  line-height: em(30px, 30px);
+}
+
+
+%headline--secondary {
+  font-size: em($base__font-size);
+  font-family: $font-family--secondary;
+  font-weight: $font-weight--thin;
+}
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Buttons
+//////////////////////////////////////////////////////////////////////////////
+%buttons {
+  font-family: $font-family--primary;
+  background-color: transparent; // test
+  border: none;
+  text-align: center;
+
+  color: $color--primary;
+  &:hover{
+    color: $color--secondary;
+  }
+  &:active {
+    opacity: initial;
+  }
+  .fa-spin { // standardize rotation on the browsers
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+  }
+}
+
+%sliders {
+  -webkit-appearance: none;
+  appearance: none;
+  background: palette(black);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  z-index: 2147483650;
+  height: 32px;
+  padding: 0 5px;
+  min-width: 10px;
+  &::-moz-progress-bar {
+    appearance: none;
+    background: palette(black);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    z-index: 2147483650;
+    height: 32px;
+    padding: 0 5px;
+    min-width: 10px;
+  }
+  &::-webkit-progress-value {
+    -webkit-appearance: none;
+    appearance: none;
+    max-height: 100%;
+    background-color: $color--primary;
+    cursor: pointer;
+  }
+  &::-moz-range-progress {
+    -moz-appearance: none;
+    appearance: none;
+    max-height: 100%;
+    background-color: $color--primary;
+    cursor: pointer;
+  }
+  &::-ms-fill {
+    appearance: none;
+    max-height: 32px;
+    background: $color--primary;
+  }
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px;
+    height: 32px;
+    background: $color--secondary;
+    border: 3px solid palette(black);
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    cursor: pointer;
+  }
+  &::-moz-range-thumb {
+    -moz-appearance: none;
+    appearance: none;
+    height: 32px;
+    width: 16px;
+    background: $color--secondary;
+    border: 3px solid palette(black);
+  }
+}

@@ -1,0 +1,96 @@
+/////////////////////////////////////////////////////////////////////////////////
+// scss/utilities/_config.scss :  Global variables for fonts, breakpoints, colors
+/////////////////////////////////////////////////////////////////////////////////
+
+// Font Stacks
+$font-url--google        : 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
+$font-family--sans-serif : Helvetica, Arial, sans-serif;
+$font-family--primary    : 'Lato', 'Helvetica Neue', $font-family--sans-serif;
+$font-family--secondary  : 'Helvetica Neue', $font-family--sans-serif;
+
+// Font weights
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+// Text
+$base__font-size   : 16px;
+$base__line-height : 24px;
+$letter-space      : 1px;
+
+// Descriptive Base Colors
+$white           : #fff;
+$black           : #0b0b0b;
+$silver-chalace  : #a2a2a2;
+
+$cowboy          : #522B29;
+$spring-green    : #37FF8B;
+$malibu          : #55DEF8;
+$polo-blue       : #8D9EC6;
+$strikemaster    : #A06B9A;
+
+// Color usage
+$color--primary    : $spring-green;
+$color--secondary  : yellow;
+$color--accent     : $strikemaster;
+$color--shadow     : rgba($polo-blue, .6);
+
+////////////////////////////////////////////////////////////////////////////////
+// THEME COLORS
+////////////////////////////////////////////////////////////////////////////////
+
+// Color Palette Modifiers
+$palettes: (
+silver-chalace: (
+    xx-light  : lighten($silver-chalace, 25%),
+    x-light   : lighten($silver-chalace, 15%),
+    light     : lighten($silver-chalace, 8%),
+    base      : $silver-chalace,
+    dark      : darken($silver-chalace, 8%),
+    x-dark    : darken($silver-chalace, 15%),
+    xx-dark   : darken($silver-chalace, 25%),
+  ),
+  black: (
+    light     : lighten($black, 10%),
+    base      : $black,
+    dark      : darken($black, 10%)
+  )
+);
+
+// Selectors : used to manipulate bg-colors()
+$selector--element  : '__';
+$selector--modifier : '--';
+
+////////////////////////////////////////////////////////////////////////////////
+// LAYOUT
+////////////////////////////////////////////////////////////////////////////////
+
+//Breakpoints
+$breakpoints: (
+  small    : 767px,
+  medium   : 768px,
+  large    : 1100px,
+);
+
+// Grid Container
+$gutter:    10px;
+$max-width: 1200px;
+$max-width--container: 80%;
+
+//Grid
+$grid-column-width          : 65px;
+$grid-gutter-width          : 20px;
+$grid-column-count          : 12;
+$max-width--grid-container  : 1200px;
+
+// Border radius
+$border-radius--default     : .4em;
+$border-radius--round       : 50%;
+
+// Transitions
+$trns-duration   : .3s;
+
+// Path to Assets
+$path--relative       : "../img";
